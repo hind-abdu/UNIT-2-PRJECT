@@ -46,9 +46,9 @@
             <!-- Mobile Menu -->
             <div id="mobile-menu" class="hidden lg:hidden mt-6 pb-4 space-y-4">
                 <a href="{% url 'index_view' %}" class="block py-2 text-lg font-medium border-l-4 border-[var(--primary)] pl-4 active">Home</a>
-                <a href="#about" class="block py-2 text-lg font-medium">About</a>
-                <a href="#discover" class="block py-2 text-lg font-medium">Discover</a>
-                <a href="#Places" class="block py-2 text-lg font-medium">Places</a>
+                <a href="{% url 'index_view' %}#about" class="block py-2 text-lg font-medium">About</a>
+                <a href="{% url 'index_view' %}#discover" class="block py-2 text-lg font-medium">Discover</a>
+                <a href="{% url 'index_view' %}#Places" class="block py-2 text-lg font-medium">Places</a>
             </div>
         </div>
     </nav>
